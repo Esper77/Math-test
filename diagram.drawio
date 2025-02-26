@@ -258,7 +258,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vw7GHhl0fOvuBDHQ20CX" name="Class Diagram">
-    <mxGraphModel dx="1071" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,29 +298,17 @@
         <mxCell id="3i66s6ww7nDhghAizmxa-12" value="+ parsing(int, QString): QByteArray&lt;div&gt;+ auth(int, QString, QString): QByteArray&lt;/div&gt;&lt;div&gt;+ reg(QString, QString, QString): QByteArray&lt;/div&gt;&lt;div&gt;+ auth(QString, QString): QByteArray&lt;/div&gt;&lt;div&gt;+ lookmystat(int): QByteArray&lt;/div&gt;&lt;div&gt;+ lookallstat(): QByteArray&lt;/div&gt;&lt;div&gt;+ changeNickname(int, QString): QByteArray&lt;/div&gt;&lt;div&gt;+ changeSettings(int, QByteArray): QByteArray&lt;/div&gt;&lt;div&gt;+ selectGameMode(int, int): QByteArray&lt;/div&gt;&lt;div&gt;+ logOut(int): void&lt;/div&gt;&lt;div&gt;+ viewLeaderboard(): QByteArray&lt;/div&gt;&lt;div&gt;+ startNewGame(int): QByteArray&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3i66s6ww7nDhghAizmxa-9">
           <mxGeometry y="30" width="290" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="7_Vl0Dau3oxc1CpDXIOX-1" value="MyDB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="360" width="240" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="7_Vl0Dau3oxc1CpDXIOX-2" value="- dbConnection: QSqlDatabase&lt;div&gt;- userTable: QString&lt;/div&gt;&lt;div&gt;- statsTable: QString&lt;/div&gt;&lt;div&gt;- leaderboardTable: QString&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7_Vl0Dau3oxc1CpDXIOX-1">
-          <mxGeometry y="26" width="240" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="7_Vl0Dau3oxc1CpDXIOX-4" value="+ updateNickname(int, QString): bool&lt;div&gt;+ updateSettings(int, QByteArray): bool&lt;/div&gt;&lt;div&gt;+ getLeaderboard(): QByteArray&lt;/div&gt;&lt;div&gt;+ saveGameResult(int, QByteArray): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7_Vl0Dau3oxc1CpDXIOX-1">
-          <mxGeometry y="90" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="lG56ZUb7Fhc-ZXEq5qqC-1" value="MyDB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="350" width="240" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="lG56ZUb7Fhc-ZXEq5qqC-5" value="MyDB_destroyer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="580" width="240" height="150" as="geometry" />
+          <mxGeometry x="475" y="550" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="lG56ZUb7Fhc-ZXEq5qqC-6" value="- dbConnection: QSqlDatabase&lt;div&gt;- retentionPeriod: int&lt;/div&gt;&lt;div&gt;- userDeletionFlag: bool&lt;/div&gt;&lt;div&gt;- leaderboardResetFlag: bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lG56ZUb7Fhc-ZXEq5qqC-5">
-          <mxGeometry y="26" width="240" height="64" as="geometry" />
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
         </mxCell>
         <mxCell id="lG56ZUb7Fhc-ZXEq5qqC-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lG56ZUb7Fhc-ZXEq5qqC-5">
-          <mxGeometry y="90" width="240" height="8" as="geometry" />
+          <mxGeometry y="90" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="lG56ZUb7Fhc-ZXEq5qqC-8" value="+ clearOldStats(): bool&lt;div&gt;+ deleteUser(int): bool&lt;/div&gt;&lt;div&gt;+ resetLeaderboard(): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lG56ZUb7Fhc-ZXEq5qqC-5">
-          <mxGeometry y="98" width="240" height="52" as="geometry" />
+          <mxGeometry y="98" width="200" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Mi7HjXs85xsGlYcdrhcW-1" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.995;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -348,9 +336,21 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="430" />
-              <mxPoint x="410" y="529" />
+              <mxPoint x="410" y="638" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I8Hl9mYYMr2qx7kuR6iw-1" value="MyDB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I8Hl9mYYMr2qx7kuR6iw-2" value="- dbConnection: QSqlDatabase&lt;div&gt;- userTable: QString&lt;/div&gt;&lt;div&gt;- statsTable: QString&lt;/div&gt;&lt;div&gt;- leaderboardTable: QString&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I8Hl9mYYMr2qx7kuR6iw-1">
+          <mxGeometry y="26" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="I8Hl9mYYMr2qx7kuR6iw-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I8Hl9mYYMr2qx7kuR6iw-1">
+          <mxGeometry y="90" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="I8Hl9mYYMr2qx7kuR6iw-4" value="+ updateNickname(int, QString): bool&lt;div&gt;+ updateSettings(int, QByteArray): bool&lt;/div&gt;&lt;div&gt;+ getLeaderboard(): QByteArray&lt;/div&gt;&lt;div&gt;+ saveGameResult(int, QByteArray): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I8Hl9mYYMr2qx7kuR6iw-1">
+          <mxGeometry y="98" width="240" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
