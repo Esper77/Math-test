@@ -1,4 +1,5 @@
 #include "mytcpserver.h"
+#include <FuncsForServer.h>
 #include <QDebug>
 #include <QCoreApplication>
 #include<QString>
@@ -47,7 +48,7 @@ void MyTcpServer::slotServerRead(){
         else
             res.append(array);
     }
-    mTcpSocket->write(res.toUtf8());
+    mTcpSocket->write(FuncsForServer().parsing(res));
 
 }
 
